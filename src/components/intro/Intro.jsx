@@ -18,7 +18,7 @@ export const Intro = () => {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="picture" />
+          <img src="assets/man.png" alt="" />
         </div>
       </div>
       <div className="right">
@@ -30,7 +30,7 @@ export const Intro = () => {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <img src="assets/down.png" alt="arrow" />
         </a>
       </div>
     </div>
