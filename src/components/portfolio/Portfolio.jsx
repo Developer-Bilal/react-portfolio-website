@@ -35,6 +35,8 @@ export const Portfolio = () => {
     }
   }, [selected]);
 
+  console.log(data);
+
   const list = [
     {
       id: "featured",
@@ -74,7 +76,7 @@ export const Portfolio = () => {
       <div className="container">
         {data.map(() => (
           <div className="item">
-            <img src={data.img} alt="" />
+            <img src={data.img} alt="title" />
             <h3>{data.title}</h3>
           </div>
         ))}
