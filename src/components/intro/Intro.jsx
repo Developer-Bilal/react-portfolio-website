@@ -24,7 +24,7 @@ export const Intro = () => {
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Shahbaz Shaheen</h1>
+          <h1>Muhammad Bilal</h1>
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
